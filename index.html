@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecolav | Contact</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+      background: linear-gradient(135deg,#f0fff4,#dcfce7);
+    }
+
+    .card{
+      width:100%;
+      max-width:420px;
+      background:white;
+      border-radius:28px;
+      overflow:hidden;
+      box-shadow:0 20px 60px rgba(22,101,52,0.18);
+    }
+
+    .header{
+      background: linear-gradient(135deg,#14532d,#16a34a,#22c55e);
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+    }
+
+    .avatar{
+      width:90px;
+      height:90px;
+      margin:auto;
+      border-radius:50%;
+      background:white;
+      color:#16a34a;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:28px;
+      font-weight:700;
+      margin-bottom:15px;
+    }
+
+    h1{
+      font-size:1.6rem;
+      margin-bottom:6px;
+    }
+
+    .role{
+      opacity:0.9;
+      font-size:0.95rem;
+    }
+
+    .content{
+      padding:28px;
+    }
+
+    .item{
+      margin-bottom:20px;
+      padding-bottom:15px;
+      border-bottom:1px solid #e2e8f0;
+    }
+
+    .item:last-child{
+      border-bottom:none;
+      margin-bottom:0;
+    }
+
+    .label{
+      color:#16a34a;
+      font-size:0.9rem;
+      font-weight:600;
+      margin-bottom:8px;
+    }
+
+    .value{
+      color:#334155;
+      font-size:0.95rem;
+      line-height:1.6;
+      word-break:break-word;
+    }
+
+    .button{
+      display:block;
+      text-align:center;
+      padding:14px;
+      border-radius:14px;
+      margin-top:10px;
+      text-decoration:none;
+      font-weight:600;
+      color:white;
+      background: linear-gradient(135deg,#16a34a,#14532d);
+    }
+
+    @media(max-width:480px){
+      .header{padding:30px 18px;}
+      h1{font-size:1.3rem;}
+      .content{padding:22px;}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="header">
+      <div class="avatar">EC</div>
+      <h1>Ecolav</h1>
+      <div class="role">Pressing & Laundry Service</div>
+    </div>
+
+    <div class="content">
+
+      <div class="item">
+        <div class="label">Owner</div>
+        <div class="value">Olfa Bouaziz</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Phone</div>
+        <div class="value">20011045</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Address</div>
+        <div class="value">Route Teniour Km 7</div>
+      </div>
+
+      <a class="button" href="tel:20011045">Call Now</a>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
